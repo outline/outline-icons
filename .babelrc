@@ -1,0 +1,11 @@
+{
+  "presets": ["react", "flow"],
+  "plugins": [
+    "styled-components",
+    "transform-decorators-legacy",
+    "transform-es2015-destructuring",
+    "transform-object-rest-spread",
+    "transform-regenerator",
+    "transform-class-properties"
+  ]
+}
