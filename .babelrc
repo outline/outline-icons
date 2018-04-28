@@ -1,5 +1,5 @@
 {
-  "presets": ["react", "flow"],
+  "presets": ["react", "flow", "env"],
   "plugins": [
     "styled-components",
     "transform-decorators-legacy",
