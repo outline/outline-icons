@@ -1,20 +1,17 @@
 // @flow
 import * as React from "react";
-import { withTheme } from "styled-components";
 
 export type Props = {
   className?: string,
   light?: boolean,
   black?: boolean,
-  primary?: boolean,
   color?: string,
   size?: number,
   onClick?: Function,
 };
 
 type BaseProps = {
-  children?: React.Node,
-  theme: Object,
+  children?: React.Node
 };
 
 function Icon({
@@ -26,11 +23,10 @@ function Icon({
 }: Props & BaseProps) {
   const size = rest.size ? rest.size + "px" : "24px";
 
-  let fill = theme ? theme.slateDark : "#000";
+  let fill = "4E5C6E";
   if (rest.color) fill = rest.color;
   if (rest.light) fill = "#FFF";
   if (rest.black) fill = "#000";
-  if (rest.primary) fill = theme ? theme.primary : "#000";
 
   return (
     <svg
@@ -47,4 +43,4 @@ function Icon({
   );
 }
 
-export default withTheme(Icon);
+export default Icon;
