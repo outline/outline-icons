@@ -23,7 +23,7 @@ function Icon({
 }: Props & BaseProps) {
   const size = rest.size ? rest.size + "px" : "24px";
 
-  let fill = "4E5C6E";
+  let fill = "#4E5C6E";
   if (rest.color) fill = rest.color;
   if (rest.light) fill = "#FFF";
   if (rest.black) fill = "#000";
