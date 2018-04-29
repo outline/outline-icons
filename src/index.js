@@ -18,20 +18,25 @@ import HorizontalRuleIcon from "./components/HorizontalRuleIcon";
 import Icon from "./components/Icon";
 import ImageIcon from "./components/ImageIcon";
 import ItalicIcon from "./components/ItalicIcon";
+import KeyboardIcon from "./components/KeyboardIcon";
 import LinkIcon from "./components/LinkIcon";
 import MenuIcon from "./components/MenuIcon";
 import MoreIcon from "./components/MoreIcon";
+import NewDocumentIcon from "./components/NewDocumentIcon";
 import NextIcon from "./components/NextIcon";
 import OpenIcon from "./components/OpenIcon";
 import OrderedListIcon from "./components/OrderedListIcon";
 import PinIcon from "./components/PinIcon";
 import PlusIcon from "./components/PlusIcon";
+import ProfileIcon from "./components/ProfileIcon";
 import SearchIcon from "./components/SearchIcon";
 import SettingsIcon from "./components/SettingsIcon";
+import StarredIcon from "./components/StarredIcon";
 import StrikethroughIcon from "./components/StrikethroughIcon";
 import TableIcon from "./components/TableIcon";
 import TodoListIcon from "./components/TodoListIcon";
 import TrashIcon from "./components/TrashIcon";
+import UserIcon from "./components/UserIcon";
 
 module.exports = {
   BackIcon,
@@ -53,18 +58,23 @@ module.exports = {
   Icon,
   ImageIcon,
   ItalicIcon,
+  KeyboardIcon,
   LinkIcon,
   MenuIcon,
   MoreIcon,
+  NewDocumentIcon,
   NextIcon,
   OpenIcon,
   OrderedListIcon,
   PinIcon,
   PlusIcon,
+  ProfileIcon,
   SearchIcon,
   SettingsIcon,
+  StarredIcon,
   StrikethroughIcon,
   TableIcon,
   TodoListIcon,
-  TrashIcon
+  TrashIcon,
+  UserIcon
 };
