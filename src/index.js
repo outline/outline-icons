@@ -24,6 +24,7 @@ import MoreIcon from "./components/MoreIcon";
 import NextIcon from "./components/NextIcon";
 import OpenIcon from "./components/OpenIcon";
 import OrderedListIcon from "./components/OrderedListIcon";
+import PinIcon from "./components/PinIcon";
 import PlusIcon from "./components/PlusIcon";
 import SearchIcon from "./components/SearchIcon";
 import SettingsIcon from "./components/SettingsIcon";
@@ -58,6 +59,7 @@ module.exports = {
   NextIcon,
   OpenIcon,
   OrderedListIcon,
+  PinIcon,
   PlusIcon,
   SearchIcon,
   SettingsIcon,
