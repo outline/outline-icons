@@ -10,6 +10,7 @@ import CollapsedIcon from "./components/CollapsedIcon";
 import CollectionIcon from "./components/CollectionIcon";
 import DocumentIcon from "./components/DocumentIcon";
 import EditIcon from "./components/EditIcon";
+import ExpandedIcon from "./components/ExpandedIcon";
 import GoToIcon from "./components/GoToIcon";
 import Heading1Icon from "./components/Heading1Icon";
 import Heading2Icon from "./components/Heading2Icon";
@@ -50,6 +51,7 @@ module.exports = {
   CollectionIcon,
   DocumentIcon,
   EditIcon,
+  ExpandedIcon,
   GoToIcon,
   Heading1Icon,
   Heading2Icon,
