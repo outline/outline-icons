@@ -27,6 +27,7 @@ import NewDocumentIcon from "./components/NewDocumentIcon";
 import NextIcon from "./components/NextIcon";
 import OpenIcon from "./components/OpenIcon";
 import OrderedListIcon from "./components/OrderedListIcon";
+import PadlockIcon from "./components/PadlockIcon";
 import PinIcon from "./components/PinIcon";
 import PlusIcon from "./components/PlusIcon";
 import ProfileIcon from "./components/ProfileIcon";
@@ -35,6 +36,7 @@ import SettingsIcon from "./components/SettingsIcon";
 import StarredIcon from "./components/StarredIcon";
 import StrikethroughIcon from "./components/StrikethroughIcon";
 import TableIcon from "./components/TableIcon";
+import TeamIcon from "./components/TeamIcon";
 import TodoListIcon from "./components/TodoListIcon";
 import TrashIcon from "./components/TrashIcon";
 import UserIcon from "./components/UserIcon";
@@ -68,6 +70,7 @@ module.exports = {
   NextIcon,
   OpenIcon,
   OrderedListIcon,
+  PadlockIcon,
   PinIcon,
   PlusIcon,
   ProfileIcon,
@@ -76,6 +79,7 @@ module.exports = {
   StarredIcon,
   StrikethroughIcon,
   TableIcon,
+  TeamIcon,
   TodoListIcon,
   TrashIcon,
   UserIcon
