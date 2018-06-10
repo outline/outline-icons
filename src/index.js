@@ -1,5 +1,6 @@
 // @flow
 import BackIcon from "./components/BackIcon";
+import BillingIcon from "./components/BillingIcon";
 import BlockQuoteIcon from "./components/BlockQuoteIcon";
 import BoldIcon from "./components/BoldIcon";
 import BulletedListIcon from "./components/BulletedListIcon";
@@ -43,6 +44,7 @@ import UserIcon from "./components/UserIcon";
 
 module.exports = {
   BackIcon,
+  BillingIcon,
   BlockQuoteIcon,
   BoldIcon,
   BulletedListIcon,
