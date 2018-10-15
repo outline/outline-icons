@@ -13,6 +13,7 @@ import DocumentIcon from "./components/DocumentIcon";
 import EditIcon from "./components/EditIcon";
 import ExpandedIcon from "./components/ExpandedIcon";
 import GoToIcon from "./components/GoToIcon";
+import HashtagIcon from "./components/HashtagIcon";
 import Heading1Icon from "./components/Heading1Icon";
 import Heading2Icon from "./components/Heading2Icon";
 import HomeIcon from "./components/HomeIcon";
@@ -57,6 +58,7 @@ module.exports = {
   EditIcon,
   ExpandedIcon,
   GoToIcon,
+  HashtagIcon,
   Heading1Icon,
   Heading2Icon,
   HomeIcon,
