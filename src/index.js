@@ -11,6 +11,7 @@ import CollapsedIcon from "./components/CollapsedIcon";
 import CollectionIcon from "./components/CollectionIcon";
 import DocumentIcon from "./components/DocumentIcon";
 import EditIcon from "./components/EditIcon";
+import EmailIcon from "./components/EmailIcon";
 import ExpandedIcon from "./components/ExpandedIcon";
 import GoToIcon from "./components/GoToIcon";
 import HashtagIcon from "./components/HashtagIcon";
@@ -56,6 +57,7 @@ module.exports = {
   CollectionIcon,
   DocumentIcon,
   EditIcon,
+  EmailIcon,
   ExpandedIcon,
   GoToIcon,
   HashtagIcon,
