@@ -1,3 +1,5 @@
+![Outline Icons Hero](/src/outline-icons-hero.png)
+
 # Outline Icons
 
 An iconset designed for the Outline editor and wiki by [Tim Van Damme](https://twitter.com/maxvoltar).
