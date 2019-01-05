@@ -33,6 +33,7 @@ import OrderedListIcon from "./components/OrderedListIcon";
 import PadlockIcon from "./components/PadlockIcon";
 import PinIcon from "./components/PinIcon";
 import PlusIcon from "./components/PlusIcon";
+import PrivateCollectionIcon from "./components/PrivateCollectionIcon";
 import ProfileIcon from "./components/ProfileIcon";
 import SearchIcon from "./components/SearchIcon";
 import SettingsIcon from "./components/SettingsIcon";
@@ -79,6 +80,7 @@ module.exports = {
   PadlockIcon,
   PinIcon,
   PlusIcon,
+  PrivateCollectionIcon,
   ProfileIcon,
   SearchIcon,
   SettingsIcon,
