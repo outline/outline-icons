@@ -25,6 +25,7 @@ import ItalicIcon from "./components/ItalicIcon";
 import KeyboardIcon from "./components/KeyboardIcon";
 import LinkIcon from "./components/LinkIcon";
 import MenuIcon from "./components/MenuIcon";
+import MoonIcon from "./components/MoonIcon";
 import MoreIcon from "./components/MoreIcon";
 import NewDocumentIcon from "./components/NewDocumentIcon";
 import NextIcon from "./components/NextIcon";
@@ -72,6 +73,7 @@ module.exports = {
   KeyboardIcon,
   LinkIcon,
   MenuIcon,
+  MoonIcon,
   MoreIcon,
   NewDocumentIcon,
   NextIcon,
