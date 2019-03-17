@@ -1,4 +1,5 @@
 // @flow
+import ArchiveIcon from "./components/ArchiveIcon";
 import BackIcon from "./components/BackIcon";
 import BillingIcon from "./components/BillingIcon";
 import BlockQuoteIcon from "./components/BlockQuoteIcon";
@@ -47,6 +48,7 @@ import TrashIcon from "./components/TrashIcon";
 import UserIcon from "./components/UserIcon";
 
 module.exports = {
+  ArchiveIcon,
   BackIcon,
   BillingIcon,
   BlockQuoteIcon,

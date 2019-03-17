@@ -7,5 +7,9 @@ const names = Object.keys(Icons);
 
 for (const name of names) {
   const Component = Icons[name];
-  stories.add(name, () => <Component />);
+  storiesOf(name, module)
+    .add('default', () => <Component />)
+    .add('large', () => <Component size={64} />)
+    .add('black', () => <Component black />)
+    .add('light', () => <Component light />)
 };
