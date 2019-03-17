@@ -5,7 +5,9 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
-    "prepublish": "yarn run build"
+    "prepublish": "yarn run build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -19,7 +21,9 @@
     "babel-preset-react": "^6.24.1",
     "flow-bin": "^0.69.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "@storybook/react": "^5.0.2",
+    "babel-loader": "^7.1.5"
   },
   "peerDependencies": {
     "react": "^16.2.0",
