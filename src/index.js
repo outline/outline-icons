@@ -6,6 +6,7 @@ import BlockQuoteIcon from "./components/BlockQuoteIcon";
 import BoldIcon from "./components/BoldIcon";
 import BulletedListIcon from "./components/BulletedListIcon";
 import CheckboxIcon from "./components/CheckboxIcon";
+import CheckmarkIcon from "./components/CheckmarkIcon";
 import CloseIcon from "./components/CloseIcon";
 import CodeIcon from "./components/CodeIcon";
 import CollapsedIcon from "./components/CollapsedIcon";
@@ -55,6 +56,7 @@ module.exports = {
   BoldIcon,
   BulletedListIcon,
   CheckboxIcon,
+  CheckmarkIcon,
   CloseIcon,
   CodeIcon,
   CollapsedIcon,
