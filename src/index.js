@@ -1,4 +1,7 @@
 // @flow
+import AlignCenterIcon from "./components/AlignCenterIcon";
+import AlignLeftIcon from "./components/AlignLeftIcon";
+import AlignRightIcon from "./components/AlignRightIcon";
 import ArchiveIcon from "./components/ArchiveIcon";
 import BackIcon from "./components/BackIcon";
 import BillingIcon from "./components/BillingIcon";
@@ -49,6 +52,9 @@ import TrashIcon from "./components/TrashIcon";
 import UserIcon from "./components/UserIcon";
 
 module.exports = {
+  AlignCenterIcon,
+  AlignLightIcon,
+  AlignRightIcon,
   ArchiveIcon,
   BackIcon,
   BillingIcon,
