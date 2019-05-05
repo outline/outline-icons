@@ -53,7 +53,7 @@ import UserIcon from "./components/UserIcon";
 
 module.exports = {
   AlignCenterIcon,
-  AlignLightIcon,
+  AlignLeftIcon,
   AlignRightIcon,
   ArchiveIcon,
   BackIcon,
