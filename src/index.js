@@ -26,6 +26,10 @@ import HomeIcon from "./components/HomeIcon";
 import HorizontalRuleIcon from "./components/HorizontalRuleIcon";
 import Icon from "./components/Icon";
 import ImageIcon from "./components/ImageIcon";
+import InsertAboveIcon from "./components/InsertAboveIcon";
+import InsertBelowIcon from "./components/InsertBelowIcon";
+import InsertLeftIcon from "./components/InsertLeftIcon";
+import InsertRightIcon from "./components/InsertRightIcon";
 import ItalicIcon from "./components/ItalicIcon";
 import KeyboardIcon from "./components/KeyboardIcon";
 import LinkIcon from "./components/LinkIcon";
@@ -79,6 +83,10 @@ module.exports = {
   HorizontalRuleIcon,
   Icon,
   ImageIcon,
+  InsertAboveIcon,
+  InsertBelowIcon,
+  InsertLeftIcon,
+  InsertRightIcon,
   ItalicIcon,
   KeyboardIcon,
   LinkIcon,
