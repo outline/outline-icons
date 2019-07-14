@@ -24,6 +24,7 @@ import HorizontalRuleIcon from "./components/HorizontalRuleIcon";
 import Icon from "./components/Icon";
 import ImageIcon from "./components/ImageIcon";
 import ItalicIcon from "./components/ItalicIcon";
+import JournalIcon from "./components/JournalIcon";
 import KeyboardIcon from "./components/KeyboardIcon";
 import LinkIcon from "./components/LinkIcon";
 import MenuIcon from "./components/MenuIcon";
@@ -74,6 +75,7 @@ module.exports = {
   Icon,
   ImageIcon,
   ItalicIcon,
+  JournalIcon,
   KeyboardIcon,
   LinkIcon,
   MenuIcon,
