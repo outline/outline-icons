@@ -1,4 +1,7 @@
 // @flow
+import AlignCenterIcon from "./components/AlignCenterIcon";
+import AlignLeftIcon from "./components/AlignLeftIcon";
+import AlignRightIcon from "./components/AlignRightIcon";
 import ArchiveIcon from "./components/ArchiveIcon";
 import BackIcon from "./components/BackIcon";
 import BillingIcon from "./components/BillingIcon";
@@ -23,6 +26,10 @@ import HomeIcon from "./components/HomeIcon";
 import HorizontalRuleIcon from "./components/HorizontalRuleIcon";
 import Icon from "./components/Icon";
 import ImageIcon from "./components/ImageIcon";
+import InsertAboveIcon from "./components/InsertAboveIcon";
+import InsertBelowIcon from "./components/InsertBelowIcon";
+import InsertLeftIcon from "./components/InsertLeftIcon";
+import InsertRightIcon from "./components/InsertRightIcon";
 import ItalicIcon from "./components/ItalicIcon";
 import JournalIcon from "./components/JournalIcon";
 import KeyboardIcon from "./components/KeyboardIcon";
@@ -50,6 +57,9 @@ import TrashIcon from "./components/TrashIcon";
 import UserIcon from "./components/UserIcon";
 
 module.exports = {
+  AlignCenterIcon,
+  AlignLeftIcon,
+  AlignRightIcon,
   ArchiveIcon,
   BackIcon,
   BillingIcon,
@@ -74,6 +84,10 @@ module.exports = {
   HorizontalRuleIcon,
   Icon,
   ImageIcon,
+  InsertAboveIcon,
+  InsertBelowIcon,
+  InsertLeftIcon,
+  InsertRightIcon,
   ItalicIcon,
   JournalIcon,
   KeyboardIcon,
