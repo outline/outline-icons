@@ -10,9 +10,11 @@
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
+    "@storybook/react": "^5.0.2",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.24.1",
     "babel-eslint": "^8.1.2",
+    "babel-loader": "^7.1.5",
     "babel-plugin-transform-es2015-destructuring": "^6.23.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
@@ -21,9 +23,7 @@
     "babel-preset-react": "^6.24.1",
     "flow-bin": "^0.69.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "@storybook/react": "^5.0.2",
-    "babel-loader": "^7.1.5"
+    "react-dom": "^16.2.0"
   },
   "peerDependencies": {
     "react": "^16.2.0",
