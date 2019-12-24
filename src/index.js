@@ -19,6 +19,7 @@ import EditIcon from "./components/EditIcon";
 import EmailIcon from "./components/EmailIcon";
 import ExpandedIcon from "./components/ExpandedIcon";
 import GoToIcon from "./components/GoToIcon";
+import GroupIcon from "./components/GroupIcon";
 import HashtagIcon from "./components/HashtagIcon";
 import Heading1Icon from "./components/Heading1Icon";
 import Heading2Icon from "./components/Heading2Icon";
@@ -77,6 +78,7 @@ module.exports = {
   EmailIcon,
   ExpandedIcon,
   GoToIcon,
+  GroupIcon,
   HashtagIcon,
   Heading1Icon,
   Heading2Icon,
