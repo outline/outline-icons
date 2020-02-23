@@ -10,7 +10,8 @@
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
-    "@storybook/react": "^5.0.2",
+    "@storybook/addon-centered": "^5.3.13",
+    "@storybook/react": "^5.3.13",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.24.1",
     "babel-eslint": "^8.1.2",
