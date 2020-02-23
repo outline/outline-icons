@@ -1,16 +1,20 @@
 // @flow
+import AcademicCapIcon from "./components/AcademicCapIcon";
 import AlignCenterIcon from "./components/AlignCenterIcon";
 import AlignLeftIcon from "./components/AlignLeftIcon";
 import AlignRightIcon from "./components/AlignRightIcon";
 import ArchiveIcon from "./components/ArchiveIcon";
 import BackIcon from "./components/BackIcon";
+import BeakerIcon from "./components/BeakerIcon";
 import BillingIcon from "./components/BillingIcon";
 import BlockQuoteIcon from "./components/BlockQuoteIcon";
 import BoldIcon from "./components/BoldIcon";
+import BuildingBlocksIcon from "./components/BuildingBlocksIcon";
 import BulletedListIcon from "./components/BulletedListIcon";
 import CheckboxIcon from "./components/CheckboxIcon";
 import CheckmarkIcon from "./components/CheckmarkIcon";
 import CloseIcon from "./components/CloseIcon";
+import CloudIcon from "./components/CloudIcon";
 import CodeIcon from "./components/CodeIcon";
 import CollapsedIcon from "./components/CollapsedIcon";
 import CollectionIcon from "./components/CollectionIcon";
@@ -24,6 +28,7 @@ import GroupIcon from "./components/GroupIcon";
 import HashtagIcon from "./components/HashtagIcon";
 import Heading1Icon from "./components/Heading1Icon";
 import Heading2Icon from "./components/Heading2Icon";
+import Heading3Icon from "./components/Heading3Icon";
 import HomeIcon from "./components/HomeIcon";
 import HorizontalRuleIcon from "./components/HorizontalRuleIcon";
 import Icon from "./components/Icon";
@@ -44,6 +49,7 @@ import NextIcon from "./components/NextIcon";
 import OpenIcon from "./components/OpenIcon";
 import OrderedListIcon from "./components/OrderedListIcon";
 import PadlockIcon from "./components/PadlockIcon";
+import PaletteIcon from "./components/PaletteIcon";
 import PinIcon from "./components/PinIcon";
 import PlusIcon from "./components/PlusIcon";
 import PrivateCollectionIcon from "./components/PrivateCollectionIcon";
@@ -59,18 +65,22 @@ import TrashIcon from "./components/TrashIcon";
 import UserIcon from "./components/UserIcon";
 
 module.exports = {
+  AcademicCapIcon,
   AlignCenterIcon,
   AlignLeftIcon,
   AlignRightIcon,
   ArchiveIcon,
   BackIcon,
+  BeakerIcon,
   BillingIcon,
   BlockQuoteIcon,
   BoldIcon,
+  BuildingBlocksIcon,
   BulletedListIcon,
   CheckboxIcon,
   CheckmarkIcon,
   CloseIcon,
+  CloudIcon,
   CodeIcon,
   CollapsedIcon,
   CollectionIcon,
@@ -84,6 +94,7 @@ module.exports = {
   HashtagIcon,
   Heading1Icon,
   Heading2Icon,
+  Heading3Icon,
   HomeIcon,
   HorizontalRuleIcon,
   Icon,
@@ -104,6 +115,7 @@ module.exports = {
   OpenIcon,
   OrderedListIcon,
   PadlockIcon,
+  PaletteIcon,
   PinIcon,
   PlusIcon,
   PrivateCollectionIcon,
