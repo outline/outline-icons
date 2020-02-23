@@ -2,7 +2,7 @@
 
 # Outline Icons
 
-An iconset designed for the Outline editor and wiki by [Tim Van Damme](https://twitter.com/maxvoltar).
+An iconset designed for the Outline editor and wiki by [Tim Van Damme](https://twitter.com/maxvoltar) and [Tom Moor](https://twitter.com/tommoor).
 
 ## Usage
 
@@ -11,6 +11,10 @@ All icons are exported as React components from the root, simply look in the dir
 ```javascript
 import { UserIcon } from 'outline-icons';
 ```
+
+## Preview
+
+Storybook is included for previewing icons, just run `yarn start`.
 
 ## License
 
