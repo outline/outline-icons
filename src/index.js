@@ -59,6 +59,7 @@ import SettingsIcon from "./components/SettingsIcon";
 import StarredIcon from "./components/StarredIcon";
 import StrikethroughIcon from "./components/StrikethroughIcon";
 import TableIcon from "./components/TableIcon";
+import TableOfContentsIcon from "./components/TableOfContentsIcon";
 import TeamIcon from "./components/TeamIcon";
 import TodoListIcon from "./components/TodoListIcon";
 import TrashIcon from "./components/TrashIcon";
@@ -125,6 +126,7 @@ module.exports = {
   StarredIcon,
   StrikethroughIcon,
   TableIcon,
+  TableOfContentsIcon,
   TeamIcon,
   TodoListIcon,
   TrashIcon,
