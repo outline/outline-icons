@@ -8,6 +8,7 @@ export type Props = {
   color?: string,
   size?: number,
   onClick?: Function,
+  theme?: Object,
 };
 
 type BaseProps = {
