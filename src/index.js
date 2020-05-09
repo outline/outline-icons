@@ -29,6 +29,7 @@ import HashtagIcon from "./components/HashtagIcon";
 import Heading1Icon from "./components/Heading1Icon";
 import Heading2Icon from "./components/Heading2Icon";
 import Heading3Icon from "./components/Heading3Icon";
+import HighlightIcon from "./components/HighlightIcon";
 import HomeIcon from "./components/HomeIcon";
 import HorizontalRuleIcon from "./components/HorizontalRuleIcon";
 import Icon from "./components/Icon";
@@ -96,6 +97,7 @@ module.exports = {
   Heading1Icon,
   Heading2Icon,
   Heading3Icon,
+  HighlightIcon,
   HomeIcon,
   HorizontalRuleIcon,
   Icon,
