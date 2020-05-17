@@ -59,6 +59,7 @@ import SearchIcon from "./components/SearchIcon";
 import SettingsIcon from "./components/SettingsIcon";
 import StarredIcon from "./components/StarredIcon";
 import StrikethroughIcon from "./components/StrikethroughIcon";
+import SunIcon from "./components/SunIcon";
 import TableIcon from "./components/TableIcon";
 import TableOfContentsIcon from "./components/TableOfContentsIcon";
 import TeamIcon from "./components/TeamIcon";
@@ -127,6 +128,7 @@ module.exports = {
   SettingsIcon,
   StarredIcon,
   StrikethroughIcon,
+  SunIcon,
   TableIcon,
   TableOfContentsIcon,
   TeamIcon,
