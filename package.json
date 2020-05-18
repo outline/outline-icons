@@ -3,6 +3,7 @@
   "version": "1.16.0",
   "description": "An iconset designed for the Outline editor and wiki",
   "main": "lib/index.js",
+  "license": "BSD-3-Clause",
   "scripts": {
     "build": "babel src -d lib",
     "prepublish": "yarn run build",
