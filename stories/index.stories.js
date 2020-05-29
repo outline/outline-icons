@@ -7,6 +7,10 @@ const stories = storiesOf('Icon', module);
 const names = Object.keys(Icons);
 
 for (const name of names) {
+  if (name === "default") {
+    continue;
+  }
+
   const Component = Icons[name];
   storiesOf(name, module)
     .addDecorator(centered)
