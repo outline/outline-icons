@@ -18,6 +18,7 @@ import CloudIcon from "./components/CloudIcon";
 import CodeIcon from "./components/CodeIcon";
 import CollapsedIcon from "./components/CollapsedIcon";
 import CollectionIcon from "./components/CollectionIcon";
+import CommentIcon from "./components/CommentIcon";
 import DocumentIcon from "./components/DocumentIcon";
 import EditIcon from "./components/EditIcon";
 import EmailIcon from "./components/EmailIcon";
@@ -87,6 +88,7 @@ module.exports = {
   CodeIcon,
   CollapsedIcon,
   CollectionIcon,
+  CommentIcon,
   DocumentIcon,
   EditIcon,
   EmailIcon,
