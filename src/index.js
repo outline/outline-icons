@@ -16,6 +16,7 @@ import CheckmarkIcon from "./components/CheckmarkIcon";
 import CloseIcon from "./components/CloseIcon";
 import CloudIcon from "./components/CloudIcon";
 import CodeIcon from "./components/CodeIcon";
+import CoinsIcon from "./components/CoinsIcon";
 import CollapsedIcon from "./components/CollapsedIcon";
 import CollectionIcon from "./components/CollectionIcon";
 import CommentIcon from "./components/CommentIcon";
@@ -42,12 +43,15 @@ import InsertRightIcon from "./components/InsertRightIcon";
 import ItalicIcon from "./components/ItalicIcon";
 import JournalIcon from "./components/JournalIcon";
 import KeyboardIcon from "./components/KeyboardIcon";
+import LeafIcon from "./components/LeafIcon";
+import LightBulbIcon from "./components/LightBulbIcon";
 import LinkIcon from "./components/LinkIcon";
 import MenuIcon from "./components/MenuIcon";
 import MoonIcon from "./components/MoonIcon";
 import MoreIcon from "./components/MoreIcon";
 import NewDocumentIcon from "./components/NewDocumentIcon";
 import NextIcon from "./components/NextIcon";
+import NotepadIcon from "./components/NotepadIcon";
 import OpenIcon from "./components/OpenIcon";
 import OrderedListIcon from "./components/OrderedListIcon";
 import PadlockIcon from "./components/PadlockIcon";
@@ -56,6 +60,7 @@ import PinIcon from "./components/PinIcon";
 import PlusIcon from "./components/PlusIcon";
 import PrivateCollectionIcon from "./components/PrivateCollectionIcon";
 import ProfileIcon from "./components/ProfileIcon";
+import QuestionMarkIcon from "./components/QuestionMarkIcon";
 import SearchIcon from "./components/SearchIcon";
 import SettingsIcon from "./components/SettingsIcon";
 import StarredIcon from "./components/StarredIcon";
@@ -67,6 +72,7 @@ import TeamIcon from "./components/TeamIcon";
 import TodoListIcon from "./components/TodoListIcon";
 import TrashIcon from "./components/TrashIcon";
 import UserIcon from "./components/UserIcon";
+import VehicleIcon from "./components/VehicleIcon";
 
 module.exports = {
   AcademicCapIcon,
@@ -86,6 +92,7 @@ module.exports = {
   CloseIcon,
   CloudIcon,
   CodeIcon,
+  CoinsIcon,
   CollapsedIcon,
   CollectionIcon,
   CommentIcon,
@@ -112,12 +119,15 @@ module.exports = {
   ItalicIcon,
   JournalIcon,
   KeyboardIcon,
+  LeafIcon,
+  LightBulbIcon,
   LinkIcon,
   MenuIcon,
   MoonIcon,
   MoreIcon,
   NewDocumentIcon,
   NextIcon,
+  NotepadIcon,
   OpenIcon,
   OrderedListIcon,
   PadlockIcon,
@@ -126,6 +136,7 @@ module.exports = {
   PlusIcon,
   PrivateCollectionIcon,
   ProfileIcon,
+  QuestionMarkIcon,
   SearchIcon,
   SettingsIcon,
   StarredIcon,
@@ -136,5 +147,6 @@ module.exports = {
   TeamIcon,
   TodoListIcon,
   TrashIcon,
-  UserIcon
+  UserIcon,
+  VehicleIcon
 };
