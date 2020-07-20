@@ -36,6 +36,7 @@ import HomeIcon from "./components/HomeIcon";
 import HorizontalRuleIcon from "./components/HorizontalRuleIcon";
 import Icon from "./components/Icon";
 import ImageIcon from "./components/ImageIcon";
+import InfoIcon from "./components/InfoIcon";
 import InsertAboveIcon from "./components/InsertAboveIcon";
 import InsertBelowIcon from "./components/InsertBelowIcon";
 import InsertLeftIcon from "./components/InsertLeftIcon";
@@ -73,6 +74,7 @@ import TodoListIcon from "./components/TodoListIcon";
 import TrashIcon from "./components/TrashIcon";
 import UserIcon from "./components/UserIcon";
 import VehicleIcon from "./components/VehicleIcon";
+import WarningIcon from "./components/WarningIcon";
 
 module.exports = {
   AcademicCapIcon,
@@ -112,6 +114,7 @@ module.exports = {
   HorizontalRuleIcon,
   Icon,
   ImageIcon,
+  InfoIcon,
   InsertAboveIcon,
   InsertBelowIcon,
   InsertLeftIcon,
@@ -148,5 +151,6 @@ module.exports = {
   TodoListIcon,
   TrashIcon,
   UserIcon,
-  VehicleIcon
+  VehicleIcon,
+  WarningIcon
 };
