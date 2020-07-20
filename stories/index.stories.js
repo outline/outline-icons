@@ -5,6 +5,16 @@ import * as Icons from "../src";
 
 const names = Object.keys(Icons);
 
+
+storiesOf("All", module)
+  .addDecorator(centered)
+  .add('default', () => <React.Fragment>{names.map((name) => {
+    if (name === "default" || name === "Icon") return null;
+
+    const Component = Icons[name];
+    return <Component key={name} size={64} />
+  })}</React.Fragment>)
+
 for (const name of names) {
   if (name === "default") {
     continue;
@@ -18,12 +28,3 @@ for (const name of names) {
     .add('black', () => <Component black />)
     .add('light', () => <Component light />)
 };
-
-storiesOf("all", module)
-  .addDecorator(centered)
-  .add('default', () => <React.Fragment>{names.map((name) => {
-    if (name === "default") return null;
-
-    const Component = Icons[name];
-    return <Component key={name} size={64} />
-  })}</React.Fragment>)
