@@ -66,6 +66,7 @@ import ProfileIcon from "./components/ProfileIcon";
 import QuestionMarkIcon from "./components/QuestionMarkIcon";
 import SearchIcon from "./components/SearchIcon";
 import SettingsIcon from "./components/SettingsIcon";
+import ShapesIcon from "./components/ShapesIcon";
 import StarredIcon from "./components/StarredIcon";
 import StrikethroughIcon from "./components/StrikethroughIcon";
 import SunIcon from "./components/SunIcon";
@@ -146,6 +147,7 @@ module.exports = {
   QuestionMarkIcon,
   SearchIcon,
   SettingsIcon,
+  ShapesIcon,
   StarredIcon,
   StrikethroughIcon,
   SunIcon,
