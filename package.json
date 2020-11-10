@@ -4,6 +4,7 @@
   "description": "An iconset designed for the Outline editor and wiki",
   "main": "lib/index.js",
   "license": "BSD-3-Clause",
+  "funding": "https://github.com/sponsors/outline",
   "scripts": {
     "build": "babel src -d lib",
     "prepublish": "yarn run build",
