@@ -18,4 +18,4 @@ Storybook is included for previewing icons, just run `yarn start`.
 
 ## License
 
-Outline is [BSD licensed](/blob/master/LICENSE).
+Outline is [BSD licensed](https://github.com/outline/outline-icons/blob/master/LICENSE).
