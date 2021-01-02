@@ -1,6 +1,9 @@
 // @flow
 import AcademicCapIcon from "./components/AcademicCapIcon";
 import AlignCenterIcon from "./components/AlignCenterIcon";
+import AlignImageCenterIcon from "./components/AlignImageCenterIcon";
+import AlignImageLeftIcon from "./components/AlignImageLeftIcon";
+import AlignImageRightIcon from "./components/AlignImageRightIcon";
 import AlignLeftIcon from "./components/AlignLeftIcon";
 import AlignRightIcon from "./components/AlignRightIcon";
 import ArchiveIcon from "./components/ArchiveIcon";
@@ -80,6 +83,9 @@ import WarningIcon from "./components/WarningIcon";
 module.exports = {
   AcademicCapIcon,
   AlignCenterIcon,
+  AlignImageCenterIcon,
+  AlignImageLeftIcon,
+  AlignImageRightIcon,
   AlignLeftIcon,
   AlignRightIcon,
   ArchiveIcon,
