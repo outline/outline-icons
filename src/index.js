@@ -42,6 +42,7 @@ import HorizontalRuleIcon from "./components/HorizontalRuleIcon";
 import Icon from "./components/Icon";
 import ImageIcon from "./components/ImageIcon";
 import InfoIcon from "./components/InfoIcon";
+import InputIcon from "./components/InputIcon";
 import InsertAboveIcon from "./components/InsertAboveIcon";
 import InsertBelowIcon from "./components/InsertBelowIcon";
 import InsertLeftIcon from "./components/InsertLeftIcon";
@@ -70,6 +71,7 @@ import ProfileIcon from "./components/ProfileIcon";
 import QuestionMarkIcon from "./components/QuestionMarkIcon";
 import SearchIcon from "./components/SearchIcon";
 import SettingsIcon from "./components/SettingsIcon";
+import ShapesIcon from "./components/ShapesIcon";
 import StarredIcon from "./components/StarredIcon";
 import StrikethroughIcon from "./components/StrikethroughIcon";
 import SunIcon from "./components/SunIcon";
@@ -126,6 +128,7 @@ module.exports = {
   Icon,
   ImageIcon,
   InfoIcon,
+  InputIcon,
   InsertAboveIcon,
   InsertBelowIcon,
   InsertLeftIcon,
@@ -154,6 +157,7 @@ module.exports = {
   QuestionMarkIcon,
   SearchIcon,
   SettingsIcon,
+  ShapesIcon,
   StarredIcon,
   StrikethroughIcon,
   SunIcon,
