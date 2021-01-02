@@ -6,6 +6,7 @@ import AlignImageLeftIcon from "./components/AlignImageLeftIcon";
 import AlignImageRightIcon from "./components/AlignImageRightIcon";
 import AlignLeftIcon from "./components/AlignLeftIcon";
 import AlignRightIcon from "./components/AlignRightIcon";
+import AlphabeticSortIcon from "./components/AlphabeticSortIcon";
 import ArchiveIcon from "./components/ArchiveIcon";
 import BackIcon from "./components/BackIcon";
 import BeakerIcon from "./components/BeakerIcon";
@@ -51,6 +52,7 @@ import KeyboardIcon from "./components/KeyboardIcon";
 import LeafIcon from "./components/LeafIcon";
 import LightBulbIcon from "./components/LightBulbIcon";
 import LinkIcon from "./components/LinkIcon";
+import ManualSortIcon from "./components/ManualSortIcon";
 import MenuIcon from "./components/MenuIcon";
 import MoonIcon from "./components/MoonIcon";
 import MoreIcon from "./components/MoreIcon";
@@ -88,6 +90,7 @@ module.exports = {
   AlignImageRightIcon,
   AlignLeftIcon,
   AlignRightIcon,
+  AlphabeticSortIcon,
   ArchiveIcon,
   BackIcon,
   BeakerIcon,
@@ -133,6 +136,7 @@ module.exports = {
   LeafIcon,
   LightBulbIcon,
   LinkIcon,
+  ManualSortIcon,
   MenuIcon,
   MoonIcon,
   MoreIcon,
