@@ -6,7 +6,7 @@ import AlignImageLeftIcon from "./components/AlignImageLeftIcon";
 import AlignImageRightIcon from "./components/AlignImageRightIcon";
 import AlignLeftIcon from "./components/AlignLeftIcon";
 import AlignRightIcon from "./components/AlignRightIcon";
-import AlphabeticSortIcon from "./components/AlphabeticSortIcon";
+import AlphabeticalSortIcon from "./components/AlphabeticalSortIcon";
 import ArchiveIcon from "./components/ArchiveIcon";
 import BackIcon from "./components/BackIcon";
 import BeakerIcon from "./components/BeakerIcon";
@@ -92,7 +92,7 @@ module.exports = {
   AlignImageRightIcon,
   AlignLeftIcon,
   AlignRightIcon,
-  AlphabeticSortIcon,
+  AlphabeticalSortIcon,
   ArchiveIcon,
   BackIcon,
   BeakerIcon,
