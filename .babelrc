@@ -1,7 +1,20 @@
 {
-  "presets": ["react", "flow", "env"],
+  "presets": [
+    "@babel/preset-react",
+    "@babel/preset-flow",
+    [
+      "@babel/preset-env",
+      {
+        "corejs": {
+          "version": "2",
+          "proposals": true
+        },
+        "useBuiltIns": "usage"
+      }
+    ]
+  ],
   "plugins": [
-    "transform-es2015-destructuring",
-    "transform-object-rest-spread"
+    "styled-components",
+    "@babel/plugin-transform-destructuring",
   ]
 }
