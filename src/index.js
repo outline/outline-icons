@@ -80,6 +80,7 @@ export { default as TableOfContentsIcon } from "./components/TableOfContentsIcon
 export { default as TeamIcon } from "./components/TeamIcon";
 export { default as TodoListIcon } from "./components/TodoListIcon";
 export { default as TrashIcon } from "./components/TrashIcon";
+export { default as UnstarredIcon } from "./components/UnstarredIcon";
 export { default as UserIcon } from "./components/UserIcon";
 export { default as VehicleIcon } from "./components/VehicleIcon";
 export { default as WarningIcon } from "./components/WarningIcon";
