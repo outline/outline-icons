@@ -15,7 +15,6 @@
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.11.1",
     "@babel/plugin-transform-destructuring": "^7.10.4",
-    "@babel/polyfill": "^7.10.4",
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-flow": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
