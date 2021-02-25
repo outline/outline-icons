@@ -11,6 +11,7 @@
     "start": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
+  "browserslist": "> 0.25%, not dead",
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
@@ -32,8 +33,5 @@
   "peerDependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
-  },
-  "dependencies": {
-    "core-js": "^3.9.0"
   }
 }
