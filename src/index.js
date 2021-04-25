@@ -65,6 +65,7 @@ export { default as NotepadIcon } from "./components/NotepadIcon";
 export { default as OpenIcon } from "./components/OpenIcon";
 export { default as OrderedListIcon } from "./components/OrderedListIcon";
 export { default as PadlockIcon } from "./components/PadlockIcon";
+export { default as PageBreakIcon } from "./components/PageBreakIcon";
 export { default as PaletteIcon } from "./components/PaletteIcon";
 export { default as PinIcon } from "./components/PinIcon";
 export { default as PlusIcon } from "./components/PlusIcon";
