@@ -56,6 +56,7 @@ export { default as LeafIcon } from "./components/LeafIcon";
 export { default as LightBulbIcon } from "./components/LightBulbIcon";
 export { default as LinkIcon } from "./components/LinkIcon";
 export { default as ManualSortIcon } from "./components/ManualSortIcon";
+export { default as MathIcon } from "./components/MathIcon";
 export { default as MenuIcon } from "./components/MenuIcon";
 export { default as MoonIcon } from "./components/MoonIcon";
 export { default as MoreIcon } from "./components/MoreIcon";
