@@ -1,6 +1,9 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 import * as Icons from "../index";
+import ArchiveIcon from "../components/ArchiveIcon";
+import CollectionIcon from "../components/CollectionIcon";
+import TrashIcon from "../components/TrashIcon";
 
 const names = Object.keys(Icons);
 
@@ -24,3 +27,13 @@ for (const name of names) {
     .add("black", () => <Component black />)
     .add("light", () => <Component light />)
 };
+
+
+storiesOf("CollectionIcon", module)
+  .add("expanded", () => <CollectionIcon expanded />)
+
+storiesOf("ArchiveIcon", module)
+  .add("open", () => <ArchiveIcon open />)
+
+storiesOf("TrashIcon", module)
+  .add("open", () => <TrashIcon open />)
