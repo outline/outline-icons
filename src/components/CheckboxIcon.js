@@ -6,7 +6,7 @@ import type { Props } from "./Icon";
 export default function CheckboxIcon({
   checked,
   ...rest
-}: Props & { checked: boolean }) {
+}: Props & { checked: boolean }): React$Element<any> {
   return (
     <Icon {...rest}>
       {checked ? (

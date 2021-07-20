@@ -6,7 +6,7 @@ import type { Props } from "./Icon";
 export default function JournalIcon({
   expanded,
   ...rest
-}: Props & { expanded?: boolean }) {
+}: Props & { expanded?: boolean }): React$Element<any> {
   return (
     <Icon {...rest}>
       {expanded ? (

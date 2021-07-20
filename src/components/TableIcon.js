@@ -3,7 +3,7 @@ import React from "react";
 import Icon from "./Icon";
 import type { Props } from "./Icon";
 
-export default function TableIcon(props: Props) {
+export default function TableIcon(props: Props): React$Element<any> {
   return (
     <Icon {...props}>
       <path

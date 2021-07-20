@@ -21,7 +21,7 @@ function Icon({
   onClick,
   theme,
   ...rest
-}: Props & BaseProps) {
+}: Props & BaseProps): React$Element<any> {
   const size = rest.size ? rest.size + "px" : "24px";
 
   let fill = "#4E5C6E";

@@ -3,7 +3,7 @@ import React from "react";
 import Icon from "./Icon";
 import type { Props } from "./Icon";
 
-export default function BuildingBlocksIcon(props: Props) {
+export default function BuildingBlocksIcon(props: Props): React$Element<any> {
   return (
     <Icon {...props}>
       <path d="M11 14.6333C11 13.7313 10.2687 13 9.36667 13H5.63333C4.73127 13 4 13.7313 4 14.6333V18.3667C4 19.2687 4.73127 20 5.63333 20H9.36667C10.2687 20 11 19.2687 11 18.3667V14.6333Z" />
