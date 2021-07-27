@@ -28,6 +28,7 @@ export { default as CoinsIcon } from "./components/CoinsIcon";
 export { default as CollapsedIcon } from "./components/CollapsedIcon";
 export { default as CollectionIcon } from "./components/CollectionIcon";
 export { default as CommentIcon } from "./components/CommentIcon";
+export { default as CrossIcon } from "./components/CrossIcon";
 export { default as DocumentIcon } from "./components/DocumentIcon";
 export { default as DownloadIcon } from "./components/DownloadIcon";
 export { default as DuplicateIcon } from "./components/DuplicateIcon";
@@ -84,6 +85,7 @@ export { default as PrivateCollectionIcon } from "./components/PrivateCollection
 export { default as ProfileIcon } from "./components/ProfileIcon";
 export { default as PublishIcon } from "./components/PublishIcon";
 export { default as QuestionMarkIcon } from "./components/QuestionMarkIcon";
+export { default as RestoreIcon } from "./components/RestoreIcon";
 export { default as SearchIcon } from "./components/SearchIcon";
 export { default as SettingsIcon } from "./components/SettingsIcon";
 export { default as ShapesIcon } from "./components/ShapesIcon";
