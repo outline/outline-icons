@@ -1,13 +1,13 @@
 {
   "name": "outline-icons",
   "version": "1.32.1",
-  "description": "An iconset designed for the Outline editor and wiki",
+  "description": "An iconset designed for the Outline editor and knowledge base",
   "main": "lib/index.js",
   "license": "BSD-3-Clause",
   "funding": "https://github.com/sponsors/outline",
   "scripts": {
     "build": "babel src -d lib",
-    "prepublish": "yarn run build",
+    "prepublish": "yarn build",
     "start": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },

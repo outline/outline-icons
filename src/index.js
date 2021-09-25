@@ -86,6 +86,7 @@ export { default as PlusIcon } from "./components/PlusIcon";
 export { default as PrintIcon } from "./components/PrintIcon";
 export { default as PrivateCollectionIcon } from "./components/PrivateCollectionIcon";
 export { default as ProfileIcon } from "./components/ProfileIcon";
+export { default as PromoteIcon } from "./components/PromoteIcon";
 export { default as PublishIcon } from "./components/PublishIcon";
 export { default as QuestionMarkIcon } from "./components/QuestionMarkIcon";
 export { default as RestoreIcon } from "./components/RestoreIcon";
