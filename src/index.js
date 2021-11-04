@@ -29,6 +29,7 @@ export { default as CoinsIcon } from "./components/CoinsIcon";
 export { default as CollapsedIcon } from "./components/CollapsedIcon";
 export { default as CollectionIcon } from "./components/CollectionIcon";
 export { default as CommentIcon } from "./components/CommentIcon";
+export { default as CopyIcon } from "./components/CopyIcon";
 export { default as CrossIcon } from "./components/CrossIcon";
 export { default as DisconnectedIcon } from "./components/DisconnectedIcon";
 export { default as DocumentIcon } from "./components/DocumentIcon";
