@@ -6,7 +6,7 @@ export type Props = {
   black?: boolean;
   color?: string;
   size?: number;
-  onClick?: (...args: Array<any>) => any;
+  onClick?: (ev: React.MouseEvent<SVGElement>) => void;
   theme?: Record<string, any>;
 };
 
@@ -23,6 +23,7 @@ function Icon({
 }: Props & BaseProps): React.ReactElement<React.ComponentProps<any>, any> {
   const size = rest.size ? rest.size + "px" : "24px";
   let fill = "#4E5C6E";
+
   if (rest.color) fill = rest.color;
   if (rest.light) fill = "#FFF";
   if (rest.black) fill = "#000";

@@ -1,6 +1,6 @@
 import React from "react";
 import Icon from "./Icon";
-import type { Props } from "./Icon";
+import { Props } from "./Icon";
 
 export default function HomeIcon(
   props: Props
