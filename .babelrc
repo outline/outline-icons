@@ -1,8 +1,8 @@
 {
   "presets": [
     "@babel/preset-react",
-    "@babel/preset-flow",
-    "@babel/preset-env",
+    "@babel/preset-typescript",
+    "@babel/preset-env"
   ],
   "plugins": [
     "styled-components",

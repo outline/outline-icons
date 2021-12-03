@@ -6,7 +6,7 @@
   "license": "BSD-3-Clause",
   "funding": "https://github.com/sponsors/outline",
   "scripts": {
-    "build": "babel src -d lib",
+    "build": "yarn tsc",
     "prepublish": "yarn build",
     "start": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
@@ -18,17 +18,19 @@
     "@babel/plugin-transform-destructuring": "^7.12.1",
     "@babel/polyfill": "^7.10.4",
     "@babel/preset-env": "^7.12.11",
-    "@babel/preset-flow": "^7.12.1",
     "@babel/preset-react": "^7.12.10",
-    "@storybook/addon-actions": "^6.3.8",
-    "@storybook/addon-essentials": "^6.3.8",
-    "@storybook/addon-links": "^6.3.8",
-    "@storybook/react": "^6.3.8",
+    "@babel/preset-typescript": "^7.16.0",
+    "@storybook/addon-actions": "^6.4.7",
+    "@storybook/addon-essentials": "^6.4.7",
+    "@storybook/addon-links": "^6.4.7",
+    "@storybook/react": "^6.4.7",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
     "babel-loader": "^8.2.2",
     "babel-plugin-styled-components": "^1.12.0",
-    "flow-bin": "^0.143.1",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "typescript": "^4.5.2"
   },
   "peerDependencies": {
     "react": "^17.0.1",
