@@ -8,6 +8,7 @@ export { default as AlignRightIcon } from "./components/AlignRightIcon";
 export { default as AlphabeticalSortIcon } from "./components/AlphabeticalSortIcon";
 export { default as ArchiveIcon } from "./components/ArchiveIcon";
 export { default as ArrowIcon } from "./components/ArrowIcon";
+export { default as AttachmentIcon } from "./components/AttachmentIcon";
 export { default as BackIcon } from "./components/BackIcon";
 export { default as BeakerIcon } from "./components/BeakerIcon";
 export { default as BicycleIcon } from "./components/BicycleIcon";
