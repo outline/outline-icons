@@ -24,6 +24,7 @@ export { default as BulletedListIcon } from "./components/BulletedListIcon";
 export { default as CameraIcon } from "./components/CameraIcon";
 export { default as CheckboxIcon } from "./components/CheckboxIcon";
 export { default as CheckmarkIcon } from "./components/CheckmarkIcon";
+export { default as ClockIcon } from "./components/ClockIcon";
 export { default as CloseIcon } from "./components/CloseIcon";
 export { default as CloudIcon } from "./components/CloudIcon";
 export { default as CodeIcon } from "./components/CodeIcon";
