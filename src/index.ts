@@ -21,6 +21,7 @@ export { default as BrowserIcon } from "./components/BrowserIcon";
 export { default as BugIcon } from "./components/BugIcon";
 export { default as BuildingBlocksIcon } from "./components/BuildingBlocksIcon";
 export { default as BulletedListIcon } from "./components/BulletedListIcon";
+export { default as CalendarIcon } from "./components/CalendarIcon";
 export { default as CameraIcon } from "./components/CameraIcon";
 export { default as CheckboxIcon } from "./components/CheckboxIcon";
 export { default as CheckmarkIcon } from "./components/CheckmarkIcon";
