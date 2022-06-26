@@ -121,3 +121,4 @@ export { default as UnstarredIcon } from "./components/UnstarredIcon";
 export { default as UserIcon } from "./components/UserIcon";
 export { default as VehicleIcon } from "./components/VehicleIcon";
 export { default as WarningIcon } from "./components/WarningIcon";
+export { default as WebhooksIcon } from "./components/WebhooksIcon";
