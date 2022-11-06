@@ -1,5 +1,6 @@
 export { default as AcademicCapIcon } from "./components/AcademicCapIcon";
 export { default as AlignCenterIcon } from "./components/AlignCenterIcon";
+export { default as AlignFullWidthIcon } from "./components/AlignFullWidthIcon";
 export { default as AlignImageCenterIcon } from "./components/AlignImageCenterIcon";
 export { default as AlignImageLeftIcon } from "./components/AlignImageLeftIcon";
 export { default as AlignImageRightIcon } from "./components/AlignImageRightIcon";
