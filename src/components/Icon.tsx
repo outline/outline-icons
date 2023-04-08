@@ -2,8 +2,6 @@ import * as React from "react";
 
 export type Props = {
   className?: string;
-  light?: boolean;
-  black?: boolean;
   color?: string;
   size?: number;
   onClick?: (ev: React.MouseEvent<SVGElement>) => void;
@@ -19,18 +17,14 @@ function Icon({
   className,
   onClick,
   theme,
+  color = "currentColor",
   ...rest
 }: Props & BaseProps): React.ReactElement<React.ComponentProps<any>, any> {
   const size = rest.size ? rest.size + "px" : "24px";
-  let fill = "#4E5C6E";
-
-  if (rest.color) fill = rest.color;
-  if (rest.light) fill = "#FFF";
-  if (rest.black) fill = "#000";
 
   return (
     <svg
-      fill={fill}
+      fill={color}
       width={size}
       height={size}
       viewBox="0 0 24 24"
