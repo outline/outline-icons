@@ -78,6 +78,7 @@ export { default as LightningIcon } from "./components/LightningIcon";
 export { default as LinkIcon } from "./components/LinkIcon";
 export { default as LogoutIcon } from "./components/LogoutIcon";
 export { default as ManualSortIcon } from "./components/ManualSortIcon";
+export { default as MarkAsReadIcon } from "./components/MarkAsReadIcon";
 export { default as MathIcon } from "./components/MathIcon";
 export { default as MenuIcon } from "./components/MenuIcon";
 export { default as MoonIcon } from "./components/MoonIcon";
