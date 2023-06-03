@@ -1,38 +1,73 @@
 import React from "react";
-import { storiesOf } from "@storybook/react";
 import * as Icons from "../index";
-import ArchiveIcon from "../components/ArchiveIcon";
-import CollectionIcon from "../components/CollectionIcon";
-import TrashIcon from "../components/TrashIcon";
+
 const names = Object.keys(Icons);
 
-storiesOf("All", module).add("default", () => (
-  <React.Fragment>
-    {names.map((name) => {
-      if (name === "default" || name === "Icon") return null;
-      // @ts-expect-error ts-migrate(7053) FIXME: Element implicitly has an 'any' type because expre... Remove this comment to see the full error message
-      const Component = Icons[name];
-      return <Component key={name} size={64} />;
-    })}
-  </React.Fragment>
-));
+export default {
+  title: 'Icons',
+};
 
-for (const name of names) {
-  if (name === "default") {
-    continue;
-  }
+export const Dark = () => (
+  <>
+    <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+      {names.map((name) => {
+        if (name === "default" || name === "Icon") return null;
+        const Component = Icons[name];
+        return (
+          <div key={name} style={{ margin: '10px', textAlign: 'center' }}>
+            <Component size={64} />
+            <div style={{ textAlign: 'center', fontFamily: 'sans-serif', fontSize: '14px', opacity: '50%' }}>{name}</div>
+          </div>
+        );
+      })}
+    </div>
+  </>
+);
 
-  // @ts-expect-error ts-migrate(7053) FIXME: Element implicitly has an 'any' type because expre... Remove this comment to see the full error message
-  const Component = Icons[name];
-  storiesOf(name, module)
-    .add("default", () => <Component />)
-    .add("large", () => <Component size={64} />)
-    .add("black", () => <Component color="#000" />)
-    .add("light", () => <Component color="#FFF" />);
-}
+export const Light = () => (
+  <>
+    <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+      {names.map((name) => {
+        if (name === "default" || name === "Icon") return null;
+        const Component = Icons[name];
+        return (
+          <div key={name} style={{ margin: '10px', textAlign: 'center' }}>
+            <Component color="#FFF" size={64} />
+            <div style={{ fontFamily: 'sans-serif', fontSize: '14px', opacity: '50%', color: '#fff' }}>{name}</div>
+          </div>
+        );
+      })}
+    </div>
+  </>
+);
 
-storiesOf("CollectionIcon", module).add("expanded", () => (
-  <CollectionIcon expanded />
-));
-storiesOf("ArchiveIcon", module).add("open", () => <ArchiveIcon open />);
-storiesOf("TrashIcon", module).add("open", () => <TrashIcon open />);
+Light.parameters = {
+  backgrounds: { default: 'dark' }
+};
+
+export const CollectionExpanded = {
+  render: () => <Icons.CollectionIcon expanded size={64} />,
+  parameters: {
+    docs: {
+      storyDescription: 'CollectionIcon expanded',
+    },
+  },
+};
+
+export const ArchiveOpen = {
+  render: () => <Icons.ArchiveIcon open size={64} />,
+  parameters: {
+    docs: {
+      storyDescription: 'ArchiveIcon open',
+    },
+  },
+};
+
+export const TrashOpen = {
+  render: () => <Icons.TrashIcon open size={64} />,
+  parameters: {
+    docs: {
+      storyDescription: 'TrashIcon open',
+    },
+  },
+};
