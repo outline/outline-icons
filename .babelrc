@@ -4,8 +4,5 @@
     "@babel/preset-typescript",
     "@babel/preset-env"
   ],
-  "plugins": [
-    "styled-components",
-    "@babel/plugin-transform-destructuring"
-  ]
+  "plugins": []
 }
