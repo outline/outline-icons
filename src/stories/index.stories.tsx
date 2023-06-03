@@ -1,7 +1,11 @@
 import React from "react";
 import * as Icons from "../index";
 
-const names = Object.keys(Icons);
+// Define an index signature for Icons
+type IconType = { [key: string]: React.ComponentType<any> };
+const TypedIcons = Icons as IconType;
+
+const names = Object.keys(TypedIcons);
 
 export default {
   title: 'Icons',
@@ -12,7 +16,7 @@ export const Dark = () => (
     <div style={{ display: 'flex', flexWrap: 'wrap' }}>
       {names.map((name) => {
         if (name === "default" || name === "Icon") return null;
-        const Component = Icons[name];
+        const Component = TypedIcons[name];
         return (
           <div key={name} style={{ margin: '10px', textAlign: 'center' }}>
             <Component size={64} />
@@ -29,7 +33,7 @@ export const Light = () => (
     <div style={{ display: 'flex', flexWrap: 'wrap' }}>
       {names.map((name) => {
         if (name === "default" || name === "Icon") return null;
-        const Component = Icons[name];
+        const Component = TypedIcons[name];
         return (
           <div key={name} style={{ margin: '10px', textAlign: 'center' }}>
             <Component color="#FFF" size={64} />
