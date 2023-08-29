@@ -113,6 +113,7 @@ export { default as SettingsIcon } from "./components/SettingsIcon";
 export { default as ShapesIcon } from "./components/ShapesIcon";
 export { default as SportIcon } from "./components/SportIcon";
 export { default as ShuffleIcon } from "./components/ShuffleIcon";
+export { default as SidebarIcon } from "./components/SidebarIcon";
 export { default as SmileyIcon } from "./components/SmileyIcon";
 export { default as StarredIcon } from "./components/StarredIcon";
 export { default as StrikethroughIcon } from "./components/StrikethroughIcon";
