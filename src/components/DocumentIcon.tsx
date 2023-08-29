@@ -6,7 +6,7 @@ export default function DocumentIcon({
   outline = false,
   ...rest
 }: Props & {
-  expanded?: boolean;
+  outline?: boolean;
 }): React.ReactElement<React.ComponentProps<any>, any> {
   return (
     <Icon {...rest}>
