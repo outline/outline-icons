@@ -47,6 +47,7 @@ export { default as DownloadIcon } from "./components/DownloadIcon";
 export { default as DuplicateIcon } from "./components/DuplicateIcon";
 export { default as EditIcon } from "./components/EditIcon";
 export { default as EmailIcon } from "./components/EmailIcon";
+export { default as EmbedIcon } from "./components/EmbedIcon";
 export { default as ExpandedIcon } from "./components/ExpandedIcon";
 export { default as ExportIcon } from "./components/ExportIcon";
 export { default as EyeIcon } from "./components/EyeIcon";
