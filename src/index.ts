@@ -125,6 +125,8 @@ export { default as TableOfContentsIcon } from "./components/TableOfContentsIcon
 export { default as TargetIcon } from "./components/TargetIcon";
 export { default as TeamIcon } from "./components/TeamIcon";
 export { default as TerminalIcon } from "./components/TerminalIcon";
+export { default as ThumbsUpIcon } from "./components/ThumbsUpIcon";
+export { default as ThumbsDownIcon } from "./components/ThumbsDownIcon";
 export { default as TodoListIcon } from "./components/TodoListIcon";
 export { default as ToolsIcon } from "./components/ToolsIcon";
 export { default as TrashIcon } from "./components/TrashIcon";
