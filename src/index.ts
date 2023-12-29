@@ -54,6 +54,7 @@ export { default as EyeIcon } from "./components/EyeIcon";
 export { default as FeedbackIcon } from "./components/FeedbackIcon";
 export { default as GlobeIcon } from "./components/GlobeIcon";
 export { default as GoToIcon } from "./components/GoToIcon";
+export { default as GraphIcon } from "./components/GraphIcon";
 export { default as GroupIcon } from "./components/GroupIcon";
 export { default as HashtagIcon } from "./components/HashtagIcon";
 export { default as Heading1Icon } from "./components/Heading1Icon";
