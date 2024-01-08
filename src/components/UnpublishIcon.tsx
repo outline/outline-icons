@@ -2,11 +2,12 @@ import React from "react";
 import Icon from "./Icon";
 import { Props } from "./Icon";
 
-export default function UnpublishIcon(
-  props: Props
+function UnpublishIcon(
+  props: Props,
+  ref: React.ForwardedRef<SVGSVGElement>
 ): React.ReactElement<React.ComponentProps<any>, any> {
   return (
-    <Icon {...props}>
+    <Icon ref={ref} {...props}>
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -15,3 +16,5 @@ export default function UnpublishIcon(
     </Icon>
   );
 }
+
+export default React.forwardRef(UnpublishIcon);

@@ -12,14 +12,10 @@ type BaseProps = {
   children?: React.ReactNode;
 };
 
-function Icon({
-  children,
-  className,
-  onClick,
-  theme,
-  color = "currentColor",
-  ...rest
-}: Props & BaseProps): React.ReactElement<React.ComponentProps<any>, any> {
+function Icon(
+  { children, className, onClick, theme, color = "currentColor", ...rest }: Props & BaseProps,
+  ref: React.ForwardedRef<SVGSVGElement>
+): React.ReactElement<React.ComponentProps<any>, any> {
   const size = rest.size ? rest.size + "px" : "24px";
 
   return (
@@ -31,10 +27,11 @@ function Icon({
       xmlns="http://www.w3.org/2000/svg"
       className={className}
       onClick={onClick}
+      ref={ref}
     >
       {children}
     </svg>
   );
 }
 
-export default Icon;
+export default React.forwardRef(Icon);

@@ -2,11 +2,12 @@ import React from "react";
 import Icon from "./Icon";
 import { Props } from "./Icon";
 
-export default function AlignFullWidthIcon(
-  props: Props
+function AlignFullWidthIcon(
+  props: Props,
+  ref: React.ForwardedRef<SVGSVGElement>
 ): React.ReactElement<React.ComponentProps<any>, any> {
   return (
-    <Icon {...props}>
+    <Icon ref={ref} {...props}>
       <path d="M4 5C3.44772 5 3 5.44772 3 6V18C3 18.5523 3.44772 19 4 19C4.55228 19 5 18.5523 5 18V6C5 5.44772 4.55228 5 4 5Z" />
       <path d="M19 6C19 5.44772 19.4477 5 20 5C20.5523 5 21 5.44772 21 6V18C21 18.5523 20.5523 19 20 19C19.4477 19 19 18.5523 19 18V6Z" />
       <path d="M7 12C7 11.4477 7.44772 11 8 11H16C16.5523 11 17 11.4477 17 12C17 12.5523 16.5523 13 16 13H8C7.44772 13 7 12.5523 7 12Z" />
@@ -15,3 +16,5 @@ export default function AlignFullWidthIcon(
     </Icon>
   );
 }
+
+export default React.forwardRef(AlignFullWidthIcon);

@@ -1,15 +1,17 @@
 import React from "react";
 import Icon from "./Icon";
-import { Props } from "./Icon";
+import { Props as IconProps } from "./Icon";
 
-export default function TrashIcon({
-  open,
-  ...rest
-}: Props & {
+type Props = IconProps & {
   open?: boolean;
-}): React.ReactElement<React.ComponentProps<any>, any> {
+};
+
+function TrashIcon(
+  { open, ...rest }: Props,
+  ref: React.ForwardedRef<SVGSVGElement>
+): React.ReactElement<React.ComponentProps<any>, any> {
   return (
-    <Icon {...rest}>
+    <Icon ref={ref} {...rest}>
       {open ? (
         <>
           <path d="M18 9L17.5031 18.1089C17.4453 19.1696 16.5684 20 15.5061 20H8.49388C7.43164 20 6.55471 19.1696 6.49685 18.1089L6 9H18ZM10 10.5C9.44772 10.5 9 10.9477 9 11.5V16.5C9 17.0523 9.44772 17.5 10 17.5C10.5523 17.5 11 17.0523 11 16.5V11.5C11 10.9477 10.5523 10.5 10 10.5ZM14 10.5C13.4477 10.5 13 10.9477 13 11.5V16.5C13 17.0523 13.4477 17.5 14 17.5C14.5523 17.5 15 17.0523 15 16.5V11.5C15 10.9477 14.5523 10.5 14 10.5Z" />
@@ -21,3 +23,5 @@ export default function TrashIcon({
     </Icon>
   );
 }
+
+export default React.forwardRef(TrashIcon);

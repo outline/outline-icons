@@ -2,12 +2,15 @@ import React from "react";
 import Icon from "./Icon";
 import { Props } from "./Icon";
 
-export default function PadlockIcon(
-  props: Props
+function PadlockIcon(
+  props: Props,
+  ref: React.ForwardedRef<SVGSVGElement>
 ): React.ReactElement<React.ComponentProps<any>, any> {
   return (
-    <Icon {...props}>
+    <Icon ref={ref} {...props}>
       <path d="M13,14.7324356 C13.5978014,14.3866262 14,13.7402824 14,13 C14,11.8954305 13.1045695,11 12,11 C10.8954305,11 10,11.8954305 10,13 C10,13.7402824 10.4021986,14.3866262 11,14.7324356 L11,16.5 C11,17.0522847 11.4477153,17.5 12,17.5 C12.5522847,17.5 13,17.0522847 13,16.5 L13,14.7324356 Z M7,9 C7,6.23857625 9.23857625,4 12,4 C14.7614237,4 17,6.23857625 17,9 C18.1045695,9 19,9.8954305 19,11 L19,17 C19,18.1045695 18.1045695,19 17,19 L7,19 C5.8954305,19 5,18.1045695 5,17 L5,11 C5,9.8954305 5.8954305,9 7,9 Z M9,9 L15,9 C15,7.34314575 13.6568542,6 12,6 C10.3431458,6 9,7.34314575 9,9 Z" />
     </Icon>
   );
 }
+
+export default React.forwardRef(PadlockIcon);

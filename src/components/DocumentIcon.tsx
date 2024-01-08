@@ -2,14 +2,17 @@ import React from "react";
 import Icon from "./Icon";
 import { Props } from "./Icon";
 
-export default function DocumentIcon({
-  outline = false,
-  ...rest
-}: Props & {
-  outline?: boolean;
-}): React.ReactElement<React.ComponentProps<any>, any> {
+function DocumentIcon(
+  {
+    outline = false,
+    ...rest
+  }: Props & {
+    outline?: boolean;
+  },
+  ref: React.ForwardedRef<SVGSVGElement>
+): React.ReactElement<React.ComponentProps<any>, any> {
   return (
-    <Icon {...rest}>
+    <Icon ref={ref} {...rest}>
       {outline ? (
         <path d="M7 18H8H16H17V17V11H14C12.8954 11 12 10.1046 12 9V6H8H7V7V17L7 18ZM14 6V9H17V8.82843L14.1716 6H14ZM15 4L19 8V18C19 19.1046 18.1046 20 17 20H7C5.89543 20 5 19.1046 5 18V6C5 4.89543 5.89543 4 7 4H15Z" />
       ) : (
@@ -18,3 +21,5 @@ export default function DocumentIcon({
     </Icon>
   );
 }
+
+export default React.forwardRef(DocumentIcon);
