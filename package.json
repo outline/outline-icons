@@ -1,6 +1,6 @@
 {
   "name": "outline-icons",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "An iconset designed for the Outline editor and knowledge base",
   "main": "lib/index.js",
   "license": "BSD-3-Clause",
