@@ -130,6 +130,8 @@ export { default as StrikethroughIcon } from "./components/StrikethroughIcon";
 export { default as SunIcon } from "./components/SunIcon";
 export { default as SubscribeIcon } from "./components/SubscribeIcon";
 export { default as TableIcon } from "./components/TableIcon";
+export { default as TableHeaderColumnIcon } from "./components/TableHeaderColumnIcon";
+export { default as TableHeaderRowIcon } from "./components/TableHeaderRowIcon";
 export { default as TableOfContentsIcon } from "./components/TableOfContentsIcon";
 export { default as TargetIcon } from "./components/TargetIcon";
 export { default as TeamIcon } from "./components/TeamIcon";
