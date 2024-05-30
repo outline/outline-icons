@@ -45,6 +45,7 @@ export { default as DisconnectedIcon } from "./components/DisconnectedIcon";
 export { default as DocumentIcon } from "./components/DocumentIcon";
 export { default as DoneIcon } from "./components/DoneIcon";
 export { default as DownloadIcon } from "./components/DownloadIcon";
+export { default as DraftsIcon } from "./components/DraftsIcon";
 export { default as DuplicateIcon } from "./components/DuplicateIcon";
 export { default as EditIcon } from "./components/EditIcon";
 export { default as EmailIcon } from "./components/EmailIcon";
