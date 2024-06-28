@@ -85,6 +85,16 @@ export const DocumentOutline = {
   },
 };
 
+export const DoneOutline = {
+  render: () => <Icons.DoneIcon outline size={64} />,
+  parameters: {
+    docs: {
+      storyDescription: "DoneIcon outline",
+    },
+  },
+};
+
+
 export const ArchiveOpen = {
   render: () => <Icons.ArchiveIcon open size={64} />,
   parameters: {
