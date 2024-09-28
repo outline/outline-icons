@@ -64,6 +64,7 @@ export { default as HashtagIcon } from "./components/HashtagIcon";
 export { default as Heading1Icon } from "./components/Heading1Icon";
 export { default as Heading2Icon } from "./components/Heading2Icon";
 export { default as Heading3Icon } from "./components/Heading3Icon";
+export { default as Heading4Icon } from "./components/Heading4Icon";
 export { default as HighlightIcon } from "./components/HighlightIcon";
 export { default as HistoryIcon } from "./components/HistoryIcon";
 export { default as HomeIcon } from "./components/HomeIcon";
