@@ -7,6 +7,7 @@ export { default as AlignImageRightIcon } from "./components/AlignImageRightIcon
 export { default as AlignLeftIcon } from "./components/AlignLeftIcon";
 export { default as AlignRightIcon } from "./components/AlignRightIcon";
 export { default as AlphabeticalSortIcon } from "./components/AlphabeticalSortIcon";
+export { default as AlphabeticalReverseSortIcon } from "./components/AlphabeticalReverseSortIcon";
 export { default as ArchiveIcon } from "./components/ArchiveIcon";
 export { default as ArrowIcon } from "./components/ArrowIcon";
 export { default as AttachmentIcon } from "./components/AttachmentIcon";
