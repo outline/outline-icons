@@ -117,6 +117,7 @@ export { default as PromoteIcon } from "./components/PromoteIcon";
 export { default as PublishIcon } from "./components/PublishIcon";
 export { default as QuestionMarkIcon } from "./components/QuestionMarkIcon";
 export { default as RamenIcon } from "./components/RamenIcon";
+export { default as ReactionIcon } from "./components/ReactionIcon";
 export { default as RegexIcon } from "./components/RegexIcon";
 export { default as ReplaceIcon } from "./components/ReplaceIcon";
 export { default as RestoreIcon } from "./components/RestoreIcon";
