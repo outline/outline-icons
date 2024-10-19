@@ -44,6 +44,7 @@ export { default as CrossIcon } from "./components/CrossIcon";
 export { default as DatabaseIcon } from "./components/DatabaseIcon";
 export { default as DigitalIcon } from "./components/DigitalIcon";
 export { default as DisconnectedIcon } from "./components/DisconnectedIcon";
+export { default as DisclosureIcon } from "./components/DisclosureIcon";
 export { default as DocumentIcon } from "./components/DocumentIcon";
 export { default as DoneIcon } from "./components/DoneIcon";
 export { default as DownloadIcon } from "./components/DownloadIcon";
