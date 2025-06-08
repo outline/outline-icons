@@ -37,6 +37,7 @@ export { default as CloudIcon } from "./components/CloudIcon";
 export { default as CodeIcon } from "./components/CodeIcon";
 export { default as CoinsIcon } from "./components/CoinsIcon";
 export { default as CollapsedIcon } from "./components/CollapsedIcon";
+export { default as CollapseIcon } from "./components/CollapseIcon";
 export { default as CollectionIcon } from "./components/CollectionIcon";
 export { default as CommentIcon } from "./components/CommentIcon";
 export { default as CopyIcon } from "./components/CopyIcon";
