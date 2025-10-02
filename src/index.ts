@@ -158,3 +158,5 @@ export { default as UnsubscribeIcon } from "./components/UnsubscribeIcon";
 export { default as VehicleIcon } from "./components/VehicleIcon";
 export { default as WarningIcon } from "./components/WarningIcon";
 export { default as WebhooksIcon } from "./components/WebhooksIcon";
+export { default as ZoomInIcon } from "./components/ZoomInIcon";
+export { default as ZoomOutIcon } from "./components/ZoomOutIcon";
