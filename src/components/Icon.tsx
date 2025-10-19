@@ -13,21 +13,20 @@ type BaseProps = {
 };
 
 function Icon(
-  { children, className, onClick, theme, color = "currentColor", ...rest }: Props & BaseProps,
+  { children, theme, color = "currentColor", size, ...rest }: Props & BaseProps,
   ref: React.ForwardedRef<SVGSVGElement>
 ): React.ReactElement<React.ComponentProps<any>, any> {
-  const size = rest.size ? rest.size + "px" : "24px";
+  const s = size ? size + "px" : "24px";
 
   return (
     <svg
       fill={color}
-      width={size}
-      height={size}
+      width={s}
+      height={s}
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
-      className={className}
-      onClick={onClick}
       ref={ref}
+      {...rest}
     >
       {children}
     </svg>
