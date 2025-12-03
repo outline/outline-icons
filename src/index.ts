@@ -123,6 +123,7 @@ export { default as ReactionIcon } from "./components/ReactionIcon";
 export { default as RegexIcon } from "./components/RegexIcon";
 export { default as ReplaceIcon } from "./components/ReplaceIcon";
 export { default as RestoreIcon } from "./components/RestoreIcon";
+export { default as ReturnIcon } from "./components/ReturnIcon";
 export { default as SearchIcon } from "./components/SearchIcon";
 export { default as ServerRackIcon } from "./components/ServerRackIcon";
 export { default as SettingsIcon } from "./components/SettingsIcon";
