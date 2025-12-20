@@ -109,6 +109,7 @@ export { default as OutdentIcon } from "./components/OutdentIcon";
 export { default as PadlockIcon } from "./components/PadlockIcon";
 export { default as PageBreakIcon } from "./components/PageBreakIcon";
 export { default as PaletteIcon } from "./components/PaletteIcon";
+export { default as PDFIcon } from "./components/PDFIcon";
 export { default as PinIcon } from "./components/PinIcon";
 export { default as PlaneIcon } from "./components/PlaneIcon";
 export { default as PlusIcon } from "./components/PlusIcon";
