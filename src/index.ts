@@ -129,6 +129,7 @@ export { default as SearchIcon } from "./components/SearchIcon";
 export { default as ServerRackIcon } from "./components/ServerRackIcon";
 export { default as SettingsIcon } from "./components/SettingsIcon";
 export { default as ShapesIcon } from "./components/ShapesIcon";
+export { default as ShieldIcon } from "./components/ShieldIcon";
 export { default as SparklesIcon } from "./components/SparklesIcon";
 export { default as SportIcon } from "./components/SportIcon";
 export { default as ShuffleIcon } from "./components/ShuffleIcon";
