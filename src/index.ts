@@ -87,6 +87,7 @@ export { default as InternetIcon } from "./components/InternetIcon";
 export { default as ItalicIcon } from "./components/ItalicIcon";
 export { default as JournalIcon } from "./components/JournalIcon";
 export { default as KeyboardIcon } from "./components/KeyboardIcon";
+export { default as KeyIcon } from "./components/KeyIcon";
 export { default as LeafIcon } from "./components/LeafIcon";
 export { default as LightBulbIcon } from "./components/LightBulbIcon";
 export { default as LightningIcon } from "./components/LightningIcon";
