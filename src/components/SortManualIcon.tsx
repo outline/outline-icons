@@ -2,7 +2,7 @@ import React from "react";
 import Icon from "./Icon";
 import { Props } from "./Icon";
 
-function ManualSortIcon(
+function SortManualIcon(
   props: Props,
   ref: React.ForwardedRef<SVGSVGElement>
 ): React.ReactElement<React.ComponentProps<any>, any> {
@@ -17,4 +17,4 @@ function ManualSortIcon(
   );
 }
 
-export default React.forwardRef(ManualSortIcon);
+export default React.forwardRef(SortManualIcon);

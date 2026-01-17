@@ -2,7 +2,7 @@ import React from "react";
 import Icon from "./Icon";
 import { Props } from "./Icon";
 
-function AlphabeticalSortIcon(
+function SortAlphabeticalIcon(
   props: Props,
   ref: React.ForwardedRef<SVGSVGElement>
 ): React.ReactElement<React.ComponentProps<any>, any> {
@@ -17,4 +17,4 @@ function AlphabeticalSortIcon(
   );
 }
 
-export default React.forwardRef(AlphabeticalSortIcon);
+export default React.forwardRef(SortAlphabeticalIcon);
