@@ -145,6 +145,7 @@ export { default as StarredIcon } from "./components/StarredIcon";
 export { default as StrikethroughIcon } from "./components/StrikethroughIcon";
 export { default as SunIcon } from "./components/SunIcon";
 export { default as SubscribeIcon } from "./components/SubscribeIcon";
+export { default as SummaryIcon } from "./components/SummaryIcon";
 export { default as TableColumnsDistributeIcon } from "./components/TableColumnsDistributeIcon";
 export { default as TableIcon } from "./components/TableIcon";
 export { default as TableMergeCellsIcon } from "./components/TableMergeCellsIcon";
