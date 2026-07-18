@@ -132,6 +132,7 @@ export { default as ShapesIcon } from "./components/ShapesIcon";
 export { default as ShieldIcon } from "./components/ShieldIcon";
 export { default as ShrinkIcon } from "./components/ShrinkIcon";
 export { default as SparklesIcon } from "./components/SparklesIcon";
+export { default as SplitIcon } from "./components/SplitIcon";
 export { default as SportIcon } from "./components/SportIcon";
 export { default as ShuffleIcon } from "./components/ShuffleIcon";
 export { default as SidebarIcon } from "./components/SidebarIcon";
