@@ -167,6 +167,8 @@ export { default as TruckIcon } from "./components/TruckIcon";
 export { default as UnpublishIcon } from "./components/UnpublishIcon";
 export { default as UnstarredIcon } from "./components/UnstarredIcon";
 export { default as UserIcon } from "./components/UserIcon";
+export { default as UserAddIcon } from "./components/UserAddIcon";
+export { default as UserRemoveIcon } from "./components/UserRemoveIcon";
 export { default as UnsubscribeIcon } from "./components/UnsubscribeIcon";
 export { default as VehicleIcon } from "./components/VehicleIcon";
 export { default as WarningIcon } from "./components/WarningIcon";
